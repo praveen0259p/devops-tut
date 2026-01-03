@@ -11,8 +11,6 @@
     "require": {
         "php": "^8.2",
         "anhskohbo/no-captcha": "^3.7",
-        "backpack/crud": "^7.0",
-        "backpack/theme-tabler": "^2.0",
         "dompdf/dompdf": "^3.1",
         "guzzlehttp/guzzle": "^7.9",
         "laravel/framework": "^12.0",
