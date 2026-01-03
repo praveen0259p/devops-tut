@@ -21,6 +21,7 @@ Route::get('/results', [FrontController::class, 'results'])->name('results');
 Route::get('/forms', [FrontController::class, 'forms'])->name('forms');
 
 Route::get('yajraData', [FrontController::class, 'yajraData'])->name('yajraData');
-
+Route::get('test', [FrontController::class, 'test'])->name('test');
+// test route created
 Route::get('/application', [BackendController::class, 'application'])->name('application');
 Route::middleware(['auth'])->group(base_path('routes/backend.php'));
